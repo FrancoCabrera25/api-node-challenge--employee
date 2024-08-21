@@ -6,11 +6,6 @@ export class AppRoutes {
         const router = Router();
         router.use('/api/auth', AuthRoutes.routes);
         router.use('/api/employee', EmployeeRoutes.routes);
-        /*      router.use('/api/auth', AuthRoutes.routes);
-        router.use('/api/categories', CategoryRoutes.routes);
-        router.use('/api/products', CategoryRoutes.routes);
-        router.use('api/upload', FileUploadRoutes.routes);
-        router.use('api/images', ImageRoutes.routes); */
         return router;
     }
 }
